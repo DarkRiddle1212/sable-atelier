@@ -1,5 +1,7 @@
 # SABLE — Atelier
 
+![SABLE Atelier storefront](preview.png)
+
 A quiet-luxury e-commerce storefront for a fictional Porto atelier. Forty-eight fixed pieces, released slowly.
 
 Zero build step — plain HTML, CSS and vanilla JavaScript. Open the file or serve the folder.
