@@ -1,0 +1,923 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SABLE — The art of dressing slowly</title>
+  <meta name="description" content="SABLE is a small atelier in Porto making a fixed library of garments from natural cloth. Forty-eight pieces, hand-finished, never marked down." />
+  <meta name="theme-color" content="#f3efe7" />
+  <meta property="og:title" content="SABLE — The art of dressing slowly" />
+  <meta property="og:description" content="A fixed library of forty-eight garments, cut from natural cloth and finished by hand in Porto." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.pexels.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2317150f'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='19' fill='%23f3efe7' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+  <noscript><style>.loader{display:none}.cursor,.progress{display:none}.reveal,.line>span{opacity:1!important;transform:none!important}</style></noscript>
+</head>
+<body>
+
+  <a class="skip" href="#shop">Skip to the collection</a>
+
+  <!-- ░░ PRELOADER ░░ -->
+  <div class="loader" data-loader aria-hidden="true">
+    <div class="loader__panel"></div>
+    <div class="loader__panel"></div>
+    <div class="loader__panel"></div>
+    <div class="loader__inner">
+      <span class="loader__brand">SABLE</span>
+      <span class="loader__meta"><span data-loader-count>00</span><span>Porto, PT — MMXXVI</span></span>
+    </div>
+  </div>
+
+  <div class="cursor" data-cursor aria-hidden="true">
+    <span class="cursor__ring"></span>
+    <span class="cursor__dot"></span>
+    <span class="cursor__label">View</span>
+  </div>
+
+  <div class="progress" data-progress aria-hidden="true"><span></span></div>
+
+  <!-- ░░ NAV ░░ -->
+  <header class="nav" data-nav>
+    <div class="nav__inner">
+      <button class="nav__burger" data-menu-open aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#shop" class="nav__link"><span>Shop</span></a>
+        <a href="#collections" class="nav__link"><span>Collections</span></a>
+        <a href="#atelier" class="nav__link"><span>Atelier</span></a>
+        <a href="#journal" class="nav__link"><span>Journal</span></a>
+      </nav>
+      <a class="brand" href="#top" aria-label="SABLE, back to top">
+        <span class="brand__word">SABLE</span>
+        <span class="brand__sub">Atelier</span>
+      </a>
+      <div class="nav__tools">
+        <button class="icon-btn" data-search-open aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+        </button>
+        <a class="icon-btn nav__account" href="#newsletter" aria-label="Account">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.5" r="4" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M4.5 20c1.4-3.6 4.2-5.4 7.5-5.4s6.1 1.8 7.5 5.4" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+        </a>
+        <button class="icon-btn icon-btn--bag" data-bag-open aria-label="Open bag">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l1 13H5L6 8Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>
+          <span class="bag-count" data-bag-count>0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ░░ MOBILE MENU ░░ -->
+  <div class="menu" data-menu aria-hidden="true" tabindex="-1">
+    <div class="menu__top">
+      <span class="menu__label">Menu</span>
+      <button class="menu__close" data-menu-close aria-label="Close menu">
+        <span></span><span></span>
+      </button>
+    </div>
+    <nav class="menu__links" aria-label="Mobile">
+      <a href="#shop" style="--i:0"><span>Shop</span><em>12</em></a>
+      <a href="#collections" style="--i:1"><span>Collections</span><em>03</em></a>
+      <a href="#atelier" style="--i:2"><span>Atelier</span><em>04</em></a>
+      <a href="#journal" style="--i:3"><span>Journal</span><em>08</em></a>
+    </nav>
+    <div class="menu__foot">
+      <p>Rua de São Bento 44<br />Porto, Portugal</p>
+      <p><a href="mailto:studio@sable.example">studio@sable.example</a><br /><a href="#newsletter">Newsletter</a></p>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- ░░ HERO ░░ -->
+    <section class="hero">
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow hero__eyebrow"><span class="eyebrow__rule"></span>AW26 — The Stillness Collection</p>
+          <h1 class="hero__title">
+            <span class="line"><span>The art of</span></span>
+            <span class="line"><span>dressing <em>slowly.</em></span></span>
+          </h1>
+          <p class="hero__lede">Forty-eight garments cut from natural cloth, finished by four hands in Porto, and made to be worn for a decade — not a season.</p>
+          <div class="hero__actions">
+            <a class="btn btn--ink" href="#shop" data-magnetic>
+              <span class="btn__text">Shop the collection</span>
+              <span class="btn__arrow" aria-hidden="true">
+                <svg viewBox="0 0 18 18"><path d="M3 9h11M9.5 4 14.5 9l-5 5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </a>
+            <button class="text-link" data-lookbook-open data-cursor="view">
+              <span>View the lookbook</span>
+              <sup>04</sup>
+            </button>
+          </div>
+          <ul class="hero__meta">
+            <li><span>01</span> Natural fibres</li>
+            <li><span>02</span> Small batch</li>
+            <li><span>03</span> Never marked down</li>
+          </ul>
+        </div>
+
+        <div class="hero__media">
+          <figure class="hero__frame" data-parallax="0.06">
+            <div class="hero__img-wrap">
+              <img src="https://images.pexels.com/photos/8070398/pexels-photo-8070398.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400" alt="A model wearing the Sable lounge set in oat alpaca, seated against a warm sand backdrop" fetchpriority="high" />
+            </div>
+            <figcaption class="hero__caption">
+              <span class="hero__caption-num">Look 01</span>
+              <span>The Lounge Set — Oat</span>
+            </figcaption>
+          </figure>
+
+          <div class="hero__tag">
+            <div class="hero__tag-main">
+              <span class="hero__tag-label">The Atelier Coat</span>
+              <span class="hero__tag-sub">Virgin wool · Camel</span>
+            </div>
+            <span class="hero__tag-price">$890</span>
+            <svg class="hero__tag-arrow" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 14 14 4M6 4h8v8" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+
+          <span class="hero__side">41°09′N — 8°37′W</span>
+          <span class="hero__edition">Edition<br />No. 04</span>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#shop" aria-label="Scroll to the collection">
+        <span>Scroll</span>
+        <i></i>
+      </a>
+    </section>
+
+    <!-- ░░ TICKER ░░ -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <div class="ticker__set">
+          <span>Complimentary shipping over $250</span><i>✦</i>
+          <span>Made in Porto, Portugal</span><i>✦</i>
+          <span>Small batch — 48 pieces</span><i>✦</i>
+          <span>Complimentary alterations, always</span><i>✦</i>
+          <span>Thirty-day returns</span><i>✦</i>
+        </div>
+        <div class="ticker__set">
+          <span>Complimentary shipping over $250</span><i>✦</i>
+          <span>Made in Porto, Portugal</span><i>✦</i>
+          <span>Small batch — 48 pieces</span><i>✦</i>
+          <span>Complimentary alterations, always</span><i>✦</i>
+          <span>Thirty-day returns</span><i>✦</i>
+        </div>
+      </div>
+    </div>
+
+    <!-- ░░ ARRIVALS ░░ -->
+    <section class="section arrivals" id="shop">
+      <div class="wrap">
+        <header class="section-head">
+          <div class="section-head__title">
+            <p class="eyebrow" data-reveal><span class="eyebrow__rule"></span>The current edit</p>
+            <h2 class="h2" data-reveal style="--delay:.08s">New <em>arrivals</em></h2>
+          </div>
+          <div class="filters" data-filters role="tablist" aria-label="Filter by category">
+            <span class="filters__pill" data-pill aria-hidden="true"></span>
+            <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">All <sup>10</sup></button>
+            <button class="filter" data-filter="outerwear" role="tab" aria-selected="false">Outerwear <sup>03</sup></button>
+            <button class="filter" data-filter="knitwear" role="tab" aria-selected="false">Knitwear <sup>01</sup></button>
+            <button class="filter" data-filter="trousers" role="tab" aria-selected="false">Trousers <sup>03</sup></button>
+            <button class="filter" data-filter="footwear" role="tab" aria-selected="false">Footwear <sup>02</sup></button>
+            <button class="filter" data-filter="accessories" role="tab" aria-selected="false">Objects <sup>01</sup></button>
+          </div>
+        </header>
+
+        <div class="product-grid" data-grid>
+          <!-- products injected by the template below -->
+          <article class="card" data-cat="outerwear" data-name="Atelier Wool Coat" data-price="890" data-id="p1" data-colour="Camel">
+            <div class="card__media">
+              <img loading="lazy" src="https://images.pexels.com/photos/7653719/pexels-photo-7653719.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Camel wool coat detail showing the cuff and horn buttons" />
+              <span class="card__tag">New</span>
+              <span class="card__index">01</span>
+              <button class="card__add" data-add data-size="M" aria-label="Add the Atelier Wool Coat to your bag">
+                <span class="card__add-label">Add — $890</span>
+                <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 3v12M3 9h12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </button>
+            </div>
+            <div class="card__info">
+              <div>
+                <p class="card__cat">Outerwear</p>
+                <h3 class="card__name">Atelier Wool Coat</h3>
+              </div>
+              <p class="card__price">$890</p>
+            </div>
+            <div class="card__swatches" aria-hidden="true">
+              <span style="--c:#b08d62" class="is-on"></span><span style="--c:#2f2c26"></span><span style="--c:#5b6158"></span>
+            </div>
+          </article>
+
+          <article class="card" data-cat="knitwear" data-name="Alpaca Crew" data-price="310" data-id="p2" data-colour="Oat">
+            <div class="card__media">
+              <img loading="lazy" src="https://images.pexels.com/photos/14641430/pexels-photo-14641430.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="A folded stack of cream alpaca knitwear" />
+              <span class="card__tag">Limited</span>
+              <span class="card__index">02</span>
+              <button class="card__add" data-add data-size="M" aria-label="Add the Alpaca Crew to your bag">
+                <span class="card__add-label">Add — $310</span>
+                <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 3v12M3 9h12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </button>
+            </div>
+            <div class="card__info">
+              <div>
+                <p class="card__cat">Knitwear</p>
+                <h3 class="card__name">Alpaca Crew</h3>
+              </div>
+              <p class="card__price">$310</p>
+            </div>
+            <div class="card__swatches" aria-hidden="true">
+              <span style="--c:#ded3c0" class="is-on"></span><span style="--c:#6d7361"></span>
+            </div>
+          </article>
+
+          <article class="card" data-cat="trousers" data-name="Pleated Wool Trouser" data-price="260" data-id="p3" data-colour="Sage">
+            <div class="card__media">
+              <img loading="lazy" src="https://images.pexels.com/photos/6764142/pexels-photo-6764142.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Sage pleated wool trousers worn with a dark belt" />
+              <span class="card__tag">New</span>
+              <span class="card__index">03</span>
+              <button class="card__add" data-add data-size="M" aria-label="Add the Pleated Wool Trouser to your bag">
+                <span class="card__add-label">Add — $260</span>
+                <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 3v12M3 9h12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </button>
+            </div>
+            <div class="card__info">
+              <div>
+                <p class="card__cat">Trousers</p>
+                <h3 class="card__name">Pleated Wool Trouser</h3>
+              </div>
+              <p class="card__price">$260</p>
+            </div>
+            <div class="card__swatches" aria-hidden="true">
+              <span style="--c:#8b8f78" class="is-on"></span><span style="--c:#24231f"></span><span style="--c:#c9bea9"></span>
+            </div>
+          </article>
+
+          <article class="card" data-cat="accessories" data-name="Structured Tote" data-price="445" data-id="p4" data-colour="Black">
+            <div class="card__media">
+              <img loading="lazy" src="https://images.pexels.com/photos/6633602/pexels-photo-6633602.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Two structured leather totes in black and cognac" />
+              <span class="card__index">04</span>
+              <button class="card__add" data-add data-size="One size" aria-label="Add the Structured Tote to your bag">
+                <span class="card__add-label">Add — $445</span>
+                <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 3v12M3 9h12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </button>
+            </div>
+            <div class="card__info">
+              <div>
+                <p class="card__cat">Objects</p>
+                <h3 class="card__name">Structured Tote</h3>
+              </div>
+              <p class="card__price">$445</p>
+            </div>
+            <div class="card__swatches" aria-hidden="true">
+              <span style="--c:#1d1b18" class="is-on"></span><span style="--c:#8a5a35"></span>
+            </div>
+          </article>
+
+          <article class="card" data-cat="trousers" data-name="Selvedge Denim" data-price="195" data-id="p5" data-colour="Indigo">
+            <div class="card__media">
+              <img loading="lazy" src="https://images.pexels.com/photos/9464625/pexels-photo-9464625.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="A folded stack of indigo selvedge denim with a feather resting on top" />
+              <span class="card__index">05</span>
+              <button class="card__add" data-add data-size="M" aria-label="Add the Selvedge Denim to your bag">
+                <span class="card__add-label">Add — $195</span>
+                <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 3v12M3 9h12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </button>
+            </div>
+            <div class="card__info">
+              <div>
+                <p class="card__cat">Trousers</p>
+                <h3 class="card__name">Selvedge Denim</h3>
+              </div>
+              <p class="card__price">$195</p>
+            </div>
+            <div class="card__swatches" aria-hidden="true">
+              <span style="--c:#3c4a5c" class="is-on"></span><span style="--c:#d8d2c4"></span>
+            </div>
+          </article>
+
+          <article class="card" data-cat="outerwear" data-name="Silk Overshirt" data-price="340" data-id="p6" data-colour="Rose">
+            <div class="card__media">
+              <img loading="lazy" src="https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="A rose silk overshirt hanging on a rail" />
+              <span class="card__index">06</span>
+              <button class="card__add" data-add data-size="M" aria-label="Add the Silk Overshirt to your bag">
+                <span class="card__add-label">Add — $340</span>
+                <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 3v12M3 9h12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </button>
+            </div>
+            <div class="card__info">
+              <div>
+                <p class="card__cat">Outerwear</p>
+                <h3 class="card__name">Silk Overshirt</h3>
+              </div>
+              <p class="card__price">$340</p>
+            </div>
+            <div class="card__swatches" aria-hidden="true">
+              <span style="--c:#c08d84" class="is-on"></span><span style="--c:#e6ded1"></span>
+            </div>
+          </article>
+
+          <article class="card" data-cat="footwear" data-name="Chelsea Boot" data-price="390" data-id="p7" data-colour="Black">
+            <div class="card__media">
+              <img loading="lazy" src="https://images.pexels.com/photos/27658707/pexels-photo-27658707.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="A black leather Chelsea boot against a deep green backdrop" />
+              <span class="card__tag">New</span>
+              <span class="card__index">07</span>
+              <button class="card__add" data-add data-size="42" aria-label="Add the Chelsea Boot to your bag">
+                <span class="card__add-label">Add — $390</span>
+                <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 3v12M3 9h12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </button>
+            </div>
+            <div class="card__info">
+              <div>
+                <p class="card__cat">Footwear</p>
+                <h3 class="card__name">Chelsea Boot</h3>
+              </div>
+              <p class="card__price">$390</p>
+            </div>
+            <div class="card__swatches" aria-hidden="true">
+              <span style="--c:#232220" class="is-on"></span><span style="--c:#6b4a34"></span>
+            </div>
+          </article>
+
+          <article class="card" data-cat="trousers" data-name="Ivory Tailored Trouser" data-price="240" data-id="p8" data-colour="Ivory">
+            <div class="card__media">
+              <img loading="lazy" src="https://images.pexels.com/photos/9082613/pexels-photo-9082613.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Ivory tailored trousers with a covered button detail" />
+              <span class="card__index">08</span>
+              <button class="card__add" data-add data-size="M" aria-label="Add the Ivory Tailored Trouser to your bag">
+                <span class="card__add-label">Add — $240</span>
+                <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 3v12M3 9h12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </button>
+            </div>
+            <div class="card__info">
+              <div>
+                <p class="card__cat">Trousers</p>
+                <h3 class="card__name">Ivory Tailored Trouser</h3>
+              </div>
+              <p class="card__price">$240</p>
+            </div>
+            <div class="card__swatches" aria-hidden="true">
+              <span style="--c:#e7e0d3" class="is-on"></span><span style="--c:#b9ad99"></span>
+            </div>
+          </article>
+
+          <article class="card" data-cat="outerwear" data-name="Wool Field Coat" data-price="520" data-id="p9" data-colour="Olive">
+            <div class="card__media">
+              <img loading="lazy" src="https://images.pexels.com/photos/1643025/pexels-photo-1643025.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="A man in an olive wool field coat, photographed in low evening light" />
+              <span class="card__index">09</span>
+              <button class="card__add" data-add data-size="M" aria-label="Add the Wool Field Coat to your bag">
+                <span class="card__add-label">Add — $520</span>
+                <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 3v12M3 9h12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </button>
+            </div>
+            <div class="card__info">
+              <div>
+                <p class="card__cat">Outerwear</p>
+                <h3 class="card__name">Wool Field Coat</h3>
+              </div>
+              <p class="card__price">$520</p>
+            </div>
+            <div class="card__swatches" aria-hidden="true">
+              <span style="--c:#5a5f4c" class="is-on"></span><span style="--c:#3a3a34"></span>
+            </div>
+          </article>
+
+          <article class="card" data-cat="footwear" data-name="Leather Derby" data-price="360" data-id="p10" data-colour="Chestnut">
+            <div class="card__media">
+              <img loading="lazy" src="https://images.pexels.com/photos/9992899/pexels-photo-9992899.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="A pair of chestnut leather derby shoes on a wooden block" />
+              <span class="card__index">10</span>
+              <button class="card__add" data-add data-size="42" aria-label="Add the Leather Derby to your bag">
+                <span class="card__add-label">Add — $360</span>
+                <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 3v12M3 9h12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </button>
+            </div>
+            <div class="card__info">
+              <div>
+                <p class="card__cat">Footwear</p>
+                <h3 class="card__name">Leather Derby</h3>
+              </div>
+              <p class="card__price">$360</p>
+            </div>
+            <div class="card__swatches" aria-hidden="true">
+              <span style="--c:#7b4b2c" class="is-on"></span><span style="--c:#232220"></span>
+            </div>
+          </article>
+
+          <article class="card card--fill" data-grid-filler>
+            <div class="fill__inner fill__inner--note">
+              <span class="fill__label">The release</span>
+              <p class="fill__quote">Forty-eight pieces.<br />No cloth cut more than four times.</p>
+              <span class="fill__foot">AW26 — The Stillness Collection</span>
+            </div>
+          </article>
+
+          <a class="card card--fill" href="#collections" data-grid-filler data-cursor="view">
+            <div class="fill__inner fill__inner--cta">
+              <span class="fill__label">The full archive</span>
+              <p class="fill__cta">The other<br /><em>thirty-eight</em><br />pieces.</p>
+              <span class="fill__link">
+                View the collection
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M8 5h11v11" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+          </a>
+        </div>
+
+        <div class="arrivals__foot">
+          <p class="count-note"><span data-visible-count>10</span> of 48 pieces shown</p>
+          <a href="#collections" class="text-link"><span>View the full collection</span> <sup>48</sup></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ STORY ░░ -->
+    <section class="section story" id="journal">
+      <div class="wrap story__grid">
+        <figure class="story__media" data-reveal>
+          <div class="story__img-wrap" data-parallax="0.1">
+            <img loading="lazy" src="https://images.pexels.com/photos/14330778/pexels-photo-14330778.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="A model in a stone-coloured trench coat on the steps of an old Porto building" />
+          </div>
+          <figcaption class="story__caption"><span>Look 04</span><span>The Trench, in stone</span></figcaption>
+        </figure>
+
+        <div class="story__copy">
+          <p class="eyebrow" data-reveal><span class="eyebrow__rule"></span>Our approach</p>
+          <h2 class="h2" data-reveal style="--delay:.08s">Cut from <em>intention.</em></h2>
+          <p class="story__lede" data-reveal style="--delay:.16s">We do not design for seasons. We design for the eleventh year — the point at which a garment has outlived every trend that greeted it.</p>
+          <p class="story__body" data-reveal style="--delay:.24s">Each piece begins as a paper pattern in our Porto atelier, is cut by hand from wool, linen or silk, and is finished by the same four people who have worked the room for a decade. Nothing is rushed. Nothing is marked down. When a cloth runs out, the piece retires.</p>
+
+          <dl class="story__facts">
+            <div><dt>14</dt><dd>hours per coat</dd></div>
+            <div><dt>04</dt><dd>artisans, one room</dd></div>
+            <div><dt>00</dt><dd>seasonal markdowns</dd></div>
+          </dl>
+
+          <a class="text-link" href="#atelier" data-reveal style="--delay:.3s"><span>Read the atelier notes</span><sup>06</sup></a>
+
+          <div class="stamp" aria-hidden="true">
+            <svg viewBox="0 0 120 120" class="stamp__ring">
+              <defs><path id="stampPath" d="M60,60 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0" /></defs>
+              <text><textPath href="#stampPath" startOffset="0">HAND FINISHED · SMALL BATCH · PORTO · </textPath></text>
+            </svg>
+            <span class="stamp__center">S</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ ANATOMY ░░ -->
+    <section class="anatomy" id="atelier">
+      <div class="wrap anatomy__grid">
+        <div class="anatomy__copy">
+          <p class="eyebrow eyebrow--light" data-reveal><span class="eyebrow__rule"></span>Fig. 01 — Construction</p>
+          <h2 class="h2 h2--light" data-reveal style="--delay:.08s">Anatomy of the <em>Atelier Coat.</em></h2>
+          <p class="anatomy__lede" data-reveal style="--delay:.16s">Three layers, one silhouette. A floating canvas of horsehair gives the chest its memory; cupro lining lets the coat move over you; the shell is a 480g virgin wool woven in Biella.</p>
+
+          <ul class="anatomy__specs" data-reveal style="--delay:.24s">
+            <li><span>01</span><b>Outer shell</b><em>Virgin wool · Biella</em></li>
+            <li><span>02</span><b>Floating canvas</b><em>Horsehair · hand-stitched</em></li>
+            <li><span>03</span><b>Lining</b><em>Cupro · cut on the bias</em></li>
+          </ul>
+
+          <button class="btn btn--ghost" data-fig-toggle data-magnetic>
+            <span class="btn__text">Take it apart</span>
+            <span class="btn__arrow" aria-hidden="true">
+              <svg viewBox="0 0 18 18"><path d="M9 2v14M2 9h14" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <p class="anatomy__note">Interactive plate — hover a layer, move to tilt.</p>
+        </div>
+
+        <div class="fig" data-fig data-tilt>
+          <header class="fig__head">
+            <span class="fig__no">Fig. 01</span>
+            <span class="fig__title">Exploded construction — not to scale</span>
+          </header>
+
+          <div class="fig__stage">
+            <svg class="fig__svg" viewBox="0 0 720 640" role="img" aria-labelledby="figTitle figDesc">
+              <title id="figTitle">Exploded isometric construction of the Atelier Coat</title>
+              <desc id="figDesc">An isometric stack of three coat layers — cupro lining, horsehair canvas and virgin wool shell — floating above an engraved stone plinth.</desc>
+              <defs>
+                <path id="coatShape" d="M167 26 C148 30 138 38 132 48 C112 58 100 82 92 112 C80 154 70 214 66 268 L62 300 C61 310 67 318 77 320 L120 326 C130 328 139 320 139 309 L141 244 C145 236 151 232 155 224 L147 424 C146 435 154 444 165 444 L235 444 C246 444 254 435 253 424 L245 224 C249 232 255 236 259 244 L261 309 C261 320 270 328 280 326 L323 320 C333 318 339 310 338 300 L334 268 C330 214 320 154 308 112 C300 82 288 58 268 48 C262 38 252 30 233 26 L180 96 Z" />
+                <clipPath id="coatClip"><use href="#coatShape" /></clipPath>
+                <pattern id="weavePat" width="7" height="7" patternUnits="userSpaceOnUse">
+                  <path d="M0 7 7 0" stroke="#f6ecd8" stroke-width=".55" opacity=".16" />
+                  <path d="M0 0 7 7" stroke="#0e0d0a" stroke-width=".55" opacity=".18" />
+                </pattern>
+                <pattern id="canvasPat" width="9" height="9" patternUnits="userSpaceOnUse">
+                  <path d="M0 9 9 0" stroke="#e4cfae" stroke-width=".6" opacity=".2" />
+                </pattern>
+                <pattern id="liningPat" width="8" height="8" patternUnits="userSpaceOnUse">
+                  <path d="M0 8 8 0" stroke="#3c2415" stroke-width=".6" opacity=".16" />
+                </pattern>
+                <radialGradient id="haloGrad" cx="50%" cy="48%" r="60%">
+                  <stop offset="0%" stop-color="#c9a46a" stop-opacity=".16" />
+                  <stop offset="60%" stop-color="#c9a46a" stop-opacity=".04" />
+                  <stop offset="100%" stop-color="#c9a46a" stop-opacity="0" />
+                </radialGradient>
+                <linearGradient id="plinthTop" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#3a362d" />
+                  <stop offset="100%" stop-color="#26231c" />
+                </linearGradient>
+              </defs>
+
+              <ellipse cx="360" cy="330" rx="290" ry="240" fill="url(#haloGrad)" />
+
+              <!-- plinth -->
+              <g class="plinth">
+                <ellipse class="plinth__shadow" cx="360" cy="618" rx="215" ry="30" fill="#000" opacity=".5" />
+                <path class="plinth__left" d="M155 548 360 610 360 634 155 572Z" fill="#211e18" />
+                <path class="plinth__right" d="M360 610 565 548 565 572 360 634Z" fill="#2b2720" />
+                <path class="plinth__top" d="M360 486 565 548 360 610 155 548Z" fill="url(#plinthTop)" stroke="#514a3c" stroke-width=".8" />
+                <path class="plinth__inset" d="M360 500 546 553 360 606 174 553Z" fill="none" stroke="#5f5646" stroke-width=".6" opacity=".55" />
+                <text class="plinth__label" x="360" y="584" text-anchor="middle">SABLE — ATELIER PORTO</text>
+              </g>
+
+              <!-- 01 · lining -->
+              <g class="layer layer--lining" data-layer="03" data-readout="03 — Lining · cupro, cut on the bias">
+                <g class="layer__inner">
+                  <use class="layer__side" href="#coatShape" transform="translate(15,-9)" />
+                  <use class="layer__face" href="#coatShape" />
+                  <g clip-path="url(#coatClip)">
+                    <rect class="layer__fabric" x="0" y="0" width="360" height="460" fill="url(#liningPat)" />
+                  </g>
+                  <g class="layer__detail">
+                    <path d="M182 104 182 430" stroke-dasharray="3 6" />
+                    <path d="M156 132 C160 240 154 340 158 428" stroke-dasharray="2 5" opacity=".6" />
+                    <path d="M204 132 C200 240 206 340 202 428" stroke-dasharray="2 5" opacity=".6" />
+                    <rect x="208" y="300" width="34" height="44" rx="1" />
+                    <path d="M208 310 242 310" />
+                    <rect x="164" y="356" width="40" height="15" rx="1" />
+                    <path d="M170 361 198 361M170 365 192 365" />
+                  </g>
+                </g>
+              </g>
+
+              <!-- 02 · canvas -->
+              <g class="layer layer--canvas" data-layer="02" data-readout="02 — Canvas · horsehair, hand-stitched">
+                <g class="layer__inner">
+                  <use class="layer__side" href="#coatShape" transform="translate(15,-9)" />
+                  <use class="layer__face" href="#coatShape" />
+                  <g clip-path="url(#coatClip)">
+                    <rect class="layer__fabric" x="0" y="0" width="360" height="460" fill="url(#canvasPat)" />
+                  </g>
+                  <g class="layer__detail">
+                    <path d="M154 120 C176 152 208 152 230 120" stroke-dasharray="3 5" />
+                    <path d="M150 168 C176 196 208 196 234 168" stroke-dasharray="3 5" opacity=".7" />
+                    <path d="M162 96 162 430M198 96 198 430M234 96 234 430" stroke-dasharray="2 7" opacity=".45" />
+                    <path d="M146 236 172 252M214 252 240 236" stroke-dasharray="2 4" />
+                    <circle cx="198" cy="214" r="3" />
+                  </g>
+                </g>
+              </g>
+
+              <!-- 03 · shell -->
+              <g class="layer layer--shell" data-layer="01" data-readout="01 — Outer shell · 480g virgin wool">
+                <g class="layer__inner">
+                  <use class="layer__side" href="#coatShape" transform="translate(16,-10)" />
+                  <use class="layer__face" href="#coatShape" />
+                  <g clip-path="url(#coatClip)">
+                    <rect class="layer__fabric" x="0" y="0" width="360" height="460" fill="url(#weavePat)" />
+                  </g>
+                  <g class="layer__detail">
+                    <path class="d-solid" d="M170 34 182 96 156 142 138 60 C142 46 154 38 170 34Z" />
+                    <path class="d-solid" d="M190 34 178 96 204 142 222 60 C218 46 206 38 190 34Z" />
+                    <path class="d-solid" d="M152 30 C158 12 168 6 180 6 C192 6 202 12 208 30 C202 40 196 44 190 38 C184 30 176 30 170 38 C164 44 158 40 152 30Z" />
+                    <path d="M184 142 184 428" />
+                    <path d="M148 72 C156 180 150 320 154 424" opacity=".55" />
+                    <path d="M212 72 C204 180 210 320 206 424" opacity=".55" />
+                    <path d="M126 282 172 274" /><path d="M126 288 172 280" opacity=".6" />
+                    <path d="M188 274 234 282" /><path d="M188 280 234 288" opacity=".6" />
+                    <path d="M72 292 C94 298 114 300 136 302" />
+                    <path d="M264 292 C242 298 222 300 200 302" />
+                    <path d="M158 432 242 432" opacity=".5" />
+                    <path d="M186 396 186 440" opacity=".4" />
+                    <circle class="btn" cx="184" cy="168" r="4" />
+                    <circle class="btn" cx="184" cy="222" r="4" />
+                    <circle class="btn" cx="184" cy="276" r="4" />
+                    <circle class="btn" cx="184" cy="330" r="4" />
+                    <circle class="btn" cx="80" cy="300" r="2.6" />
+                    <circle class="btn" cx="280" cy="300" r="2.6" />
+                    <path d="M146 44 166 36M214 44 194 36" opacity=".5" />
+                    <path d="M144 250 C136 268 132 286 132 300" opacity=".5" />
+                    <path d="M256 250 C264 268 268 286 268 300" opacity=".5" />
+                  </g>
+                </g>
+              </g>
+
+              <!-- annotation -->
+              <g class="leaders" aria-hidden="true">
+                <g class="leader" data-for="01"><path d="M505 250 578 250" /><circle cx="505" cy="250" r="3" /><text x="592" y="247">01 — SHELL</text><text class="leader__sub" x="592" y="260">VIRGIN WOOL · 480G</text></g>
+                <g class="leader" data-for="02"><path d="M421 330 578 330" /><circle cx="421" cy="330" r="3" /><text x="592" y="327">02 — CANVAS</text><text class="leader__sub" x="592" y="340">HORSEHAIR · STITCHED</text></g>
+                <g class="leader" data-for="03"><path d="M337 410 578 410" /><circle cx="337" cy="410" r="3" /><text x="592" y="407">03 — LINING</text><text class="leader__sub" x="592" y="420">CUPRO · BIAS CUT</text></g>
+              </g>
+            </svg>
+            <span class="fig__corner" aria-hidden="true"></span>
+            <span class="fig__corner fig__corner--b" aria-hidden="true"></span>
+          </div>
+
+          <footer class="fig__foot">
+            <span class="fig__hint">Hover a layer · move to tilt</span>
+            <span class="fig__readout" data-fig-readout>01 — Outer shell · 480g virgin wool</span>
+            <button class="fig__switch" data-fig-toggle aria-pressed="false">
+              <span class="fig__switch-track" aria-hidden="true"><i></i></span>
+              <span class="fig__switch-label">Exploded</span>
+            </button>
+          </footer>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ COLLECTIONS ░░ -->
+    <section class="section collections" id="collections">
+      <div class="wrap">
+        <header class="collections__head">
+          <div>
+            <p class="eyebrow" data-reveal><span class="eyebrow__rule"></span>Three ways to begin</p>
+            <h2 class="h2" data-reveal style="--delay:.08s">The <em>collections.</em></h2>
+          </div>
+          <p class="collections__aside" data-reveal style="--delay:.16s">A wardrobe is a library, not a calendar. Start with the piece you will reach for most, then let the rest arrive slowly.</p>
+        </header>
+
+        <div class="collections__grid">
+          <a class="tile" href="#shop" data-cursor="view" data-reveal>
+            <div class="tile__media">
+              <img loading="lazy" src="https://images.pexels.com/photos/17065356/pexels-photo-17065356.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="A model in a checked wool blazer against a weathered wall" />
+            </div>
+            <div class="tile__meta">
+              <span class="tile__no">01</span>
+              <h3>Coats &amp; Jackets</h3>
+              <span class="tile__count">Twelve pieces</span>
+            </div>
+            <span class="tile__arrow" aria-hidden="true">
+              <svg viewBox="0 0 20 20"><path d="M5 15 15 5M6.5 5H15v8.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+
+          <a class="tile tile--drop" href="#shop" data-cursor="view" data-reveal style="--delay:.1s">
+            <div class="tile__media">
+              <img loading="lazy" src="https://images.pexels.com/photos/5467462/pexels-photo-5467462.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Folded natural knitwear in oatmeal and grey" />
+            </div>
+            <div class="tile__meta">
+              <span class="tile__no">02</span>
+              <h3>Knitwear</h3>
+              <span class="tile__count">Nine pieces</span>
+            </div>
+            <span class="tile__arrow" aria-hidden="true">
+              <svg viewBox="0 0 20 20"><path d="M5 15 15 5M6.5 5H15v8.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+
+          <a class="tile" href="#shop" data-cursor="view" data-reveal style="--delay:.2s">
+            <div class="tile__media">
+              <img loading="lazy" src="https://images.pexels.com/photos/6633602/pexels-photo-6633602.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Structured leather totes in black and cognac" />
+            </div>
+            <div class="tile__meta">
+              <span class="tile__no">03</span>
+              <h3>Objects</h3>
+              <span class="tile__count">Six pieces</span>
+            </div>
+            <span class="tile__arrow" aria-hidden="true">
+              <svg viewBox="0 0 20 20"><path d="M5 15 15 5M6.5 5H15v8.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ VOICES ░░ -->
+    <section class="voices">
+      <div class="wrap">
+        <div class="press" data-reveal>
+          <span>VOGUE</span>
+          <span>MONOCLE</span>
+          <span>KINFOLK</span>
+          <span>WALLPAPER*</span>
+          <span>032c</span>
+        </div>
+
+        <div class="quotes" data-quotes>
+          <span class="quotes__mark" aria-hidden="true">“</span>
+          <blockquote class="quote is-active">
+            <p>The rare label that treats restraint as a luxury.</p>
+            <cite>Monocle — <span>The Small House Index</span></cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>Cloth with a memory. Sable makes clothes you keep.</p>
+            <cite>Kinfolk — <span>On Wardrobes</span></cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>Quietly the most copied atelier in Europe.</p>
+            <cite>Vogue — <span>The Porto Notes</span></cite>
+          </blockquote>
+
+          <div class="quotes__nav">
+            <span class="quotes__index"><span data-quote-index>01</span> / 03</span>
+            <div class="quotes__dots">
+              <button class="is-active" data-quote="0" aria-label="Quote 1" aria-pressed="true"></button>
+              <button data-quote="1" aria-label="Quote 2" aria-pressed="false"></button>
+              <button data-quote="2" aria-label="Quote 3" aria-pressed="false"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ NEWSLETTER ░░ -->
+    <section class="newsletter" id="newsletter">
+      <div class="newsletter__mark" aria-hidden="true">S</div>
+      <div class="wrap newsletter__grid">
+        <div class="newsletter__copy">
+          <p class="eyebrow eyebrow--light" data-reveal><span class="eyebrow__rule"></span>Correspondence</p>
+          <h2 class="h2 h2--light" data-reveal style="--delay:.08s">Letters from the <em>atelier.</em></h2>
+          <p class="newsletter__lede" data-reveal style="--delay:.16s">Six letters a year. New cloth, open studio dates, and the occasional invitation. No noise, no countdowns.</p>
+        </div>
+
+        <form class="subscribe" data-subscribe novalidate>
+          <label class="subscribe__label" for="email">Email address</label>
+          <div class="subscribe__row">
+            <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+            <button class="subscribe__btn" type="submit" aria-label="Subscribe to letters from the atelier">
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13M11 4l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+          <p class="subscribe__note">By subscribing you agree to our privacy policy. One click to leave.</p>
+          <p class="subscribe__msg" data-sub-msg role="status"></p>
+          <div class="subscribe__done" data-sub-done aria-hidden="true">
+            <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1" opacity=".4"/><path d="M12 20.5 17.5 26 29 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>You are on the list.</strong><span>The first letter arrives with the next cloth.</span></div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__mast">
+        <div class="footer__line"><span>Porto, Portugal</span><span>Est. MMXXVI</span></div>
+        <span class="footer__word" data-text="SABLE" data-cursor="view">SABLE</span>
+        <div class="footer__line"><span>Considered clothing, made to last.</span><span>41°09′N — 8°37′W</span></div>
+      </div>
+
+      <div class="footer__cols">
+        <div class="footer__col footer__col--wide">
+          <p class="footer__label">The house</p>
+          <p class="footer__about">Forty-eight garments, cut in Porto from natural cloth and finished by hand. Sold at one price, in one place, for as long as the cloth lasts.</p>
+          <address class="footer__studio">
+            Rua de São Bento 44<br />
+            4050-591 Porto, Portugal<br />
+            <a href="mailto:studio@sable.example">studio@sable.example</a>
+          </address>
+        </div>
+
+        <nav class="footer__col" aria-label="Shop">
+          <p class="footer__label">Shop</p>
+          <a href="#shop">New arrivals</a>
+          <a href="#collections">Outerwear</a>
+          <a href="#collections">Knitwear</a>
+          <a href="#collections">Objects</a>
+          <a href="#shop">The full library</a>
+        </nav>
+
+        <nav class="footer__col" aria-label="House">
+          <p class="footer__label">House</p>
+          <a href="#atelier">The atelier</a>
+          <a href="#journal">Our approach</a>
+          <a href="#atelier">Construction</a>
+          <a href="#newsletter">Correspondence</a>
+          <a href="#shop">Alterations</a>
+        </nav>
+
+        <nav class="footer__col" aria-label="Elsewhere">
+          <p class="footer__label">Elsewhere</p>
+          <a href="#top">Instagram ↗</a>
+          <a href="#top">Are.na ↗</a>
+          <a href="#top">Pinterest ↗</a>
+          <a href="#top">Journal ↗</a>
+          <a href="#top">Careers</a>
+        </nav>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© 2026 Sable Atelier, Lda.</span>
+        <span class="footer__clock" data-clock>Porto — 00:00</span>
+        <div class="footer__legal">
+          <a href="#top">Privacy</a><a href="#top">Terms</a><a href="#top">Shipping</a>
+        </div>
+        <button class="footer__top" data-to-top>
+          <span>Back to top</span>
+          <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 15V3M4 8l5-5 5 5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ░░ OVERLAYS ░░ -->
+  <div class="scrim" data-scrim></div>
+
+  <aside class="bag" data-bag aria-hidden="true" aria-label="Shopping bag" tabindex="-1">
+    <header class="bag__head">
+      <div>
+        <p class="eyebrow">Your selection</p>
+        <h2 class="bag__title">Bag <sup data-bag-count>0</sup></h2>
+      </div>
+      <button class="bag__close" data-bag-close aria-label="Close bag">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <div class="bag__ship">
+      <p data-ship-msg>Complimentary shipping over $250</p>
+      <div class="bag__bar"><i data-ship-bar></i></div>
+    </div>
+
+    <div class="bag__items" data-bag-items></div>
+
+    <div class="bag__empty" data-bag-empty>
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <path d="M60 48v-8a9 9 0 1 1 9-9" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
+        <path d="M60 48 27 71c-4 3-2 9 3 9h60c5 0 7-6 3-9L60 48Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" />
+        <path d="M27 78h66" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".4" />
+      </svg>
+      <p>Your bag is quiet.</p>
+      <span>Fill it with something made to last.</span>
+      <button class="btn btn--ink" data-bag-explore><span class="btn__text">Explore the edit</span></button>
+    </div>
+
+    <footer class="bag__foot" data-bag-foot>
+      <div class="bag__subtotal"><span>Subtotal</span><b data-subtotal>$0</b></div>
+      <p class="bag__tax">Taxes and shipping calculated at checkout. Complimentary alterations included.</p>
+      <button class="btn btn--ink btn--full" data-checkout>
+        <span class="btn__text">Checkout</span>
+        <span class="btn__arrow" aria-hidden="true"><svg viewBox="0 0 18 18"><path d="M3 9h11M9.5 4 14.5 9l-5 5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </button>
+      <span class="bag__secure">Secure checkout · 30-day returns</span>
+    </footer>
+  </aside>
+
+  <div class="search" data-search aria-hidden="true">
+    <div class="search__top">
+      <span>Search the atelier</span>
+      <button data-search-close>Close <i>×</i></button>
+    </div>
+    <div class="wrap search__wrap">
+      <label class="sr-only" for="searchInput">Search products</label>
+      <input id="searchInput" type="search" data-search-input placeholder="Try “coat”, “knit”, “object”…" autocomplete="off" />
+      <div class="search__hint">
+        <span>Suggestions</span>
+        <button data-search-term="coat">Coats</button>
+        <button data-search-term="knit">Knitwear</button>
+        <button data-search-term="trouser">Trousers</button>
+        <button data-search-term="boot">Footwear</button>
+        <button data-search-term="bag">Objects</button>
+      </div>
+      <div class="search__results" data-search-results></div>
+    </div>
+  </div>
+
+  <div class="look" data-look aria-hidden="true" tabindex="-1">
+    <header class="look__head">
+      <span>AW26 — The Stillness Lookbook</span>
+      <span data-look-count>01 / 04</span>
+      <button data-look-close>Close <i>×</i></button>
+    </header>
+    <div class="look__stage">
+      <figure class="look__frame">
+        <img data-look-img src="https://images.pexels.com/photos/14330778/pexels-photo-14330778.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400" alt="Look 01" />
+        <figcaption>
+          <span class="look__num" data-look-num>Look 01</span>
+          <span class="look__cap" data-look-cap>The Trench, in stone</span>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="look__nav">
+      <button data-look-prev aria-label="Previous look">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <span data-look-list>01 — 04</span>
+      <button data-look-next aria-label="Next look">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="toast" data-toast role="status" aria-live="polite">
+    <span class="toast__check" aria-hidden="true">
+      <svg viewBox="0 0 18 18"><path d="M3 9.5 7 13.5 15 4.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+    <span class="toast__text" data-toast-text>Added to bag</span>
+    <button class="toast__close" data-toast-close aria-label="Dismiss">×</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
